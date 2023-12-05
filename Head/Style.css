@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(103, 103, 103);
+    margin: 100px 0 0 550px
+}
+.eyes{
+    display: flex;
+    text-align: center;
+
+}
+.eye{
+    height: 100PX;
+    width: 70px;
+    background-color: white;
+    margin: 48px 0 0 85.5px;
+    font-size: 120px;
+    border-radius: 50px ;
+    display: flex;
+    align-items: center;
+    padding: 0 5px 20px 5px;
+}
+#nose{
+    margin: 10px 0 0 170px;
+    font-size: 80px;
+    color: white;
+}
+#mouth{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 20px 0 0 50px;
+}
